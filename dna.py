@@ -64,7 +64,7 @@ def read_fasta(filename):
 ##Read a FASTA file and return a list of (name, sequence) tuples##
      sequences=[]
      name=""
-     sequenc=""
+     sequence=""
      with open(filename,"r") as file:
           for line in file:
                line=line.strip()
